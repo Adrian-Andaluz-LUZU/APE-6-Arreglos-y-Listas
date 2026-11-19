@@ -142,3 +142,48 @@ Finalmente, muestra el promedio general, la cantidad de estudiantes aprobados y 
 <img width="1299" height="546" alt="WhatsApp Image 2026-11-18 at 9 05 32 PM" src="https://github.com/user-attachments/assets/a6fef48e-4137-410f-b761-c31fa1ee4a79" />
 
 ---
+
+---
+
+## Ejercicio 04: Búsqueda y conteo
+
+**Tema:** Arreglos en Java.
+
+### Enunciado
+
+Dado `int[] numeros = {14, 7, 25, 3, 18, 7, 30};` pide un número por teclado y muestra cuántas veces aparece y su primera posición. Si no existe, imprime "No existe" (usa `posicion = -1`).
+
+**Indicaciones:**
+
+1. Importar la clase `Scanner` para leer los datos ingresados por el usuario.
+2. Declarar un arreglo de tipo `int` con los valores `{14, 7, 25, 3, 18, 7, 30}`.
+3. Solicitar al usuario un número por teclado.
+4. Utilizar un bucle `for` para recorrer el arreglo y comparar sus elementos con el número ingresado.
+5. Contar cuántas veces aparece el número y guardar su primera posición utilizando `posicion = -1` como valor inicial.
+6. Mostrar la cantidad de veces que aparece y su primera posición. Si no se encuentra, imprimir `"No existe"`.
+
+**Estructuras y elementos sugeridos:**
+
+- `int[]`
+- `Scanner`
+- Bucle `for`
+- Condicional `if`
+- `contador`
+- `posicion`
+- `.length`
+
+### Descripción de la resolución
+
+Para resolver este ejercicio, se utiliza un arreglo unidimensional de tipo `int` con siete elementos. Mediante la clase `Scanner`, se solicita al usuario ingresar un número que desea buscar. Luego, se recorre el arreglo con un bucle `for`, comparando cada elemento con el número ingresado. Si existe una coincidencia, se incrementa el contador y se guarda la primera posición encontrada, siempre que la variable `posicion` todavía tenga el valor `-1`. Finalmente, se muestra cuántas veces aparece el número y su primera posición. Si no se encuentra ninguna coincidencia, se imprime `"No existe"`.
+
+### Resolución a mano
+
+<img width="1190" height="1600" alt="image" src="https://github.com/user-attachments/assets/e5e43d22-bcba-441f-be4d-d21549c4131e" />
+
+
+### Evidencia de ejecución
+
+<img width="1212" height="366" alt="image" src="https://github.com/user-attachments/assets/95b5ba1e-13b3-4108-8c58-fb23ff927050" />
+
+
+---
