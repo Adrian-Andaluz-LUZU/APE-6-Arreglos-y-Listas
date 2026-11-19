@@ -44,3 +44,48 @@ Para resolver este ejercicio, se utiliza un arreglo unidimensional de tipo `doub
 ### Evidencia de ejecución
 <img width="317" height="355" alt="image" src="https://github.com/user-attachments/assets/3f9bfaa5-4574-4977-abf1-ed8a862b1545" />
 
+---
+
+# Ejercicio 2: Filtro y suma condicionada de producción
+
+**Tema:** Arreglos en Java.
+
+## Enunciado
+
+Crea un programa que declare un arreglo de 10 números enteros ingresados por teclado, que representen la cantidad de piezas fabricadas por turno. Luego, recorre el arreglo para calcular la suma de las piezas ubicadas únicamente en los índices pares (0, 2, 4...), contar cuántos turnos produjeron una cantidad impar de piezas que además sea mayor a 15, y finalmente mostrar el promedio general de producción formateado a 2 decimales.
+
+**Indicaciones:**
+
+1. Importar la clase `Scanner` para leer los datos ingresados por el usuario.
+2. Declarar un arreglo de tipo `int` de tamaño 10 para almacenar las piezas fabricadas por turno, y variables para la suma de índices pares, el contador y el total.
+3. Utilizar un bucle `for` para pedir la producción de los 10 turnos y acumular el total.
+4. Dentro del recorrido, sumar el valor solo cuando el índice sea par (`i % 2 == 0`).
+5. Dentro del recorrido, contar el turno solo cuando la cantidad sea impar y mayor a 15 (`piezas[i] % 2 != 0 && piezas[i] > 15`).
+6. Calcular el promedio general dividiendo el total entre la longitud del arreglo (usando `(double)` para evitar la división entera) y mostrarlo con 2 decimales mediante `printf("%.2f")`.
+
+**Estructuras y elementos sugeridos:**
+
+- `int[]`
+- `Scanner`
+- Bucle `for`
+- Condicional `if`
+- Operador módulo `%`
+- Operador lógico `&&`
+- `.length`
+- `printf`
+
+## Descripción de la resolución
+
+Para resolver este ejercicio se utiliza un arreglo unidimensional de tipo `int` con 10 posiciones para almacenar las piezas fabricadas en cada turno, ingresadas mediante `Scanner`. A través de un bucle `for` se lee cada dato y se acumula el total de producción. En el mismo recorrido, una estructura `if` con `i % 2 == 0` evalúa la posición del elemento para sumar únicamente los índices pares, y otra estructura `if` con `piezas[i] % 2 != 0 && piezas[i] > 15` cuenta los turnos con producción impar y mayor a 15. Finalmente, se calcula el promedio general convirtiendo la suma a `double` para conservar los decimales, y se imprime con 2 decimales utilizando `printf` y `.length`.
+
+## Resolución a mano
+
+<img width="1080" height="1014" alt="image" src="https://github.com/user-attachments/assets/48a00433-c5ff-4adc-9a9d-52f577062ed6" />
+
+```
+
+## Evidencia de ejecución
+
+<img width="959" height="311" alt="Captura de pantalla 2026-11-18 205255" src="https://github.com/user-attachments/assets/88257293-3251-44d8-ad76-aa6206ba4a81" />
+
+```
