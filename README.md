@@ -90,66 +90,53 @@ Para resolver este ejercicio se utiliza un arreglo unidimensional de tipo `int` 
 
 ```
 
-# Ejercicio 3: Asistencia y rendimiento
+---
 
-## . Enunciado
+## Ejercicio 3: Asistencia y rendimiento
 
-Solicitar al usuario la cantidad de estudiantes de un curso y crear un arreglo de tipo `int[]` de tamaño n. Llenar el arreglo con notas válidas (entre 0 y 20). Recorrer los datos para calcular:
+**Enunciado**
 
-- El promedio general del curso, evitando la división entera.
+Solicitar al usuario la cantidad n de estudiantes de un curso y crear un arreglo int[] notas de tamaño n. Llenar el arreglo con notas válidas (entre 0 y 20). Recorrer los datos para calcular:
+
+- El promedio general del curso (evitando la división entera).
 - La cantidad de estudiantes aprobados (nota >= 14) y reprobados.
-- Una lista con los números de estudiante cuya nota esté estrictamente por debajo del promedio.
+- Una lista con los números de estudiante (Estudiante 1, Estudiante 2, etc.) cuya nota esté estrictamente por debajo del promedio.
 
-## . Indicaciones
+**Indicaciones**
 
-1. Solicitar la cantidad de estudiantes del curso.
-2. Crear un arreglo para almacenar las calificaciones.
-3. Ingresar las notas de cada estudiante, validando que estén entre 0 y 20.
-4. Calcular la suma total de las calificaciones.
-5. Calcular el promedio general con decimales.
-6. Contar los estudiantes aprobados y reprobados.
-7. Mostrar los estudiantes que tienen una nota inferior al promedio.
+1. Solicitar al usuario la cantidad de estudiantes.
+2. Crear un arreglo de tipo entero para almacenar las notas.
+3. Ingresar las calificaciones de cada estudiante.
+4. Validar que las notas estén dentro del rango de 0 a 20.
+5. Recorrer el arreglo para calcular la suma total de las notas.
+6. Calcular el promedio general evitando la división entera.
+7. Contar la cantidad de estudiantes aprobados y reprobados.
+8. Mostrar los números de los estudiantes cuyas notas estén por debajo del promedio.
 
-## . Estructuras y elementos sugeridos
+**Estructuras y elementos sugeridos**
 
-- `Scanner`: permite ingresar datos por teclado.
-- `int[]`: permite almacenar las calificaciones.
-- `for`: permite recorrer el arreglo.
-- `while`: permite validar los datos ingresados.
-- `if - else`: permite clasificar a los estudiantes.
-- `double`: permite calcular el promedio con decimales.
-- `boolean`: permite comprobar si existen estudiantes debajo del promedio.
+- Scanner: Para ingresar los datos por teclado.
+- Arreglos (int[]): Para almacenar las calificaciones.
+- Ciclo for: Para recorrer el arreglo y realizar los cálculos.
+- Ciclo while: Para validar los datos ingresados.
+- Condicionales if-else: Para clasificar a los estudiantes.
+- Variable double: Para calcular el promedio con decimales.
+- Variable boolean: Para verificar si existen estudiantes debajo del promedio.
 
-## . Descripción de la solución
+**Descripción de la solución**
 
-Se desarrolló un programa en Java utilizando arreglos para almacenar las calificaciones de los estudiantes.
+Se desarrolló un programa en Java que permite analizar el rendimiento académico de un grupo de estudiantes.
 
-Primero, se solicita la cantidad de estudiantes y se crea un arreglo de tipo entero. Luego, se ingresan las notas de cada estudiante, comprobando que los valores estén entre 0 y 20.
+Primero, se solicita la cantidad de estudiantes y se crea un arreglo de tipo entero para almacenar las calificaciones. Después, se ingresan las notas de cada estudiante y se valida que estén entre 0 y 20.
 
-Mediante un ciclo `for`, se recorre el arreglo para sumar todas las calificaciones. Después, se calcula el promedio general utilizando `double` para evitar la división entera.
+Posteriormente, mediante un ciclo for, se recorren los datos para obtener la suma total de las calificaciones. Con estos valores se calcula el promedio general utilizando una variable double para evitar la división entera.
 
-Posteriormente, mediante condicionales `if - else`, se cuentan los estudiantes aprobados, con notas mayores o iguales a 14, y los reprobados, con notas inferiores a 14.
+Luego, mediante condicionales if-else, se determina la cantidad de estudiantes aprobados y reprobados, considerando como nota mínima de aprobación 14.
 
-Finalmente, se comparan las calificaciones con el promedio general para identificar y mostrar los números de los estudiantes que se encuentran por debajo de este.
+Finalmente, se comparan las calificaciones con el promedio general para mostrar los números de los estudiantes que tienen notas inferiores al promedio.
 
-### Resultado
+---
 
-El programa muestra:
-
-- Promedio general del curso.
-- Cantidad de estudiantes aprobados.
-- Cantidad de estudiantes reprobados.
-- Lista de estudiantes con notas inferiores al promedio.
-
-## Resolución a mano
-
-<img width="1320" height="1311" alt="WhatsApp Image 2026-11-18 at 9 02 05 PM" src="https://github.com/user-attachments/assets/d183e4d9-6ce5-4096-849e-6c91b4cd17f3" />
-
-<img width="1116" height="1600" alt="WhatsApp Image 2026-11-18 at 9 02 05 PM (2)" src="https://github.com/user-attachments/assets/f6a8d1dd-9afb-4540-b7b2-3b84c8240312" />
-
-## Evidencia de ejecución
-
-<img width="1299" height="546" alt="WhatsApp Image 2026-11-18 at 9 05 32 PM" src="https://github.com/user-attachments/assets/c5b76d94-dd4c-4476-8c83-beb3e4feaacf" />
 
 
 
