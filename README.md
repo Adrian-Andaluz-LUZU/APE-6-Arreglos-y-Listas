@@ -82,10 +82,10 @@ Para resolver este ejercicio se utiliza un arreglo unidimensional de tipo `int` 
 
 <img width="1080" height="1014" alt="image" src="https://github.com/user-attachments/assets/48a00433-c5ff-4adc-9a9d-52f577062ed6" />
 
-```
+
 
 ## Evidencia de ejecución
 
-<img width="959" height="311" alt="Captura de pantalla 2026-11-18 205255" src="https://github.com/user-attachments/assets/88257293-3251-44d8-ad76-aa6206ba4a81" />
+<img width="959" height="311" alt="Captura de pantalla 2026-11-18 205255" src="https://github.com/user-attachments/assets/4e1812a5-b054-4e64-88ce-4deeccd385a6" />
 
 ```
