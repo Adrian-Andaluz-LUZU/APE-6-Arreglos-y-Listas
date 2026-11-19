@@ -38,3 +38,5 @@ Crea un programa que pida al usuario registrar los gastos diarios de una semana 
 Para resolver este ejercicio, se utiliza un arreglo unidimensional de tipo `double` con 7 posiciones para almacenar los gastos diarios ingresados mediante `Scanner`. A través de un primer bucle `for` se acumula el gasto total y luego se obtiene el promedio diario. Posteriormente, se recorre el arreglo evaluando con una estructura `if` qué días superan dicho promedio para aplicarles el aumento del 10 % y contabilizar cuántos días recibieron el ajuste. Finalmente, se imprime el arreglo actualizado desde el último índice hacia el primero utilizando `.length` y se muestra el total de días incrementados.
 
 ### Evidencia de ejecución
+<img width="317" height="355" alt="image" src="https://github.com/user-attachments/assets/3f9bfaa5-4574-4977-abf1-ed8a862b1545" />
+
