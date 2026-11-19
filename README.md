@@ -78,7 +78,7 @@ Crea un programa que declare un arreglo de 10 números enteros ingresados por te
 
 Para resolver este ejercicio se utiliza un arreglo unidimensional de tipo `int` con 10 posiciones para almacenar las piezas fabricadas en cada turno, ingresadas mediante `Scanner`. A través de un bucle `for` se lee cada dato y se acumula el total de producción. En el mismo recorrido, una estructura `if` con `i % 2 == 0` evalúa la posición del elemento para sumar únicamente los índices pares, y otra estructura `if` con `piezas[i] % 2 != 0 && piezas[i] > 15` cuenta los turnos con producción impar y mayor a 15. Finalmente, se calcula el promedio general convirtiendo la suma a `double` para conservar los decimales, y se imprime con 2 decimales utilizando `printf` y `.length`.
 
-## Resolución a mano
+### Resolución a mano
 
 <img width="1080" height="1014" alt="image" src="https://github.com/user-attachments/assets/48a00433-c5ff-4adc-9a9d-52f577062ed6" />
 
@@ -88,5 +88,57 @@ Para resolver este ejercicio se utiliza un arreglo unidimensional de tipo `int` 
 
 <img width="959" height="311" alt="Captura de pantalla 2026-11-18 205255" src="https://github.com/user-attachments/assets/4e1812a5-b054-4e64-88ce-4deeccd385a6" />
 
-```
+---
 
+## Ejercicio 3: Análisis de asistencia y rendimiento
+
+###  Enunciado
+
+Solicita al usuario la cantidad n de estudiantes de un curso y crea un arreglo `int[] notas` de tamaño n. Llena el arreglo con notas válidas (entre 0 y 20). Recorre los datos para calcular:
+
+- El promedio general del curso (evitando la división entera).
+- La cantidad de estudiantes aprobados (nota ≥ 14) y reprobados.
+- Una lista con los números de estudiante (Estudiante 1, Estudiante 2, etc.) cuya nota esté estrictamente por debajo del promedio.
+
+###  Indicaciones
+
+- Solicitar al usuario la cantidad de estudiantes del curso.
+- Crear un arreglo de tipo entero (`int[]`) para almacenar las notas.
+- Ingresar notas válidas dentro del rango de 0 a 20.
+- Calcular el promedio general utilizando división decimal.
+- Determinar la cantidad de estudiantes aprobados y reprobados.
+- Identificar a los estudiantes que obtuvieron una nota inferior al promedio general.
+
+###  Instrucciones y elementos sugeridos
+
+- Utilizar un arreglo unidimensional de tipo `int[]`.
+- Utilizar la clase `Scanner` para ingresar los datos por teclado.
+- Emplear estructuras repetitivas `for` para recorrer el arreglo.
+- Utilizar estructuras condicionales `if - else` para clasificar las notas.
+- Utilizar una variable de tipo `double` para almacenar el promedio.
+- Validar que las notas ingresadas estén entre 0 y 20.
+- Utilizar contadores para registrar los estudiantes aprobados y reprobados.
+
+###  Descripción de la solución
+
+La solución consiste en desarrollar un programa en Java que permita registrar y analizar las notas de los estudiantes de un curso mediante un arreglo unidimensional.
+
+Primero, el programa solicita la cantidad de estudiantes y crea un arreglo para almacenar sus respectivas notas. Después, mediante un ciclo `for`, solicita las notas de cada estudiante y verifica que se encuentren dentro del rango permitido de 0 a 20.
+
+Una vez registrados los datos, el programa calcula la suma de todas las notas y obtiene el promedio general utilizando una variable de tipo `double`, evitando así la división entera.
+
+Posteriormente, recorre nuevamente el arreglo para identificar a los estudiantes aprobados, considerando una nota mayor o igual a 14, y a los estudiantes reprobados, cuyas notas sean menores a 14.
+
+Finalmente, muestra el promedio general, la cantidad de estudiantes aprobados y reprobados, y los números de los estudiantes cuyas notas se encuentran estrictamente por debajo del promedio.
+
+### Resolución a mano
+
+<img width="1320" height="1311" alt="WhatsApp Image 2026-11-18 at 9 02 05 PM" src="https://github.com/user-attachments/assets/368914c5-061f-4798-bf62-d553e885e236" />
+
+<img width="1116" height="1600" alt="WhatsApp Image 2026-11-18 at 9 02 05 PM (2)" src="https://github.com/user-attachments/assets/92dbb559-016a-4573-b170-cf62afb69883" />
+
+## Evidencia de ejecución
+
+<img width="1299" height="546" alt="WhatsApp Image 2026-11-18 at 9 05 32 PM" src="https://github.com/user-attachments/assets/a6fef48e-4137-410f-b761-c31fa1ee4a79" />
+
+---
