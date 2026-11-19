@@ -187,3 +187,57 @@ Para resolver este ejercicio, se utiliza un arreglo unidimensional de tipo `int`
 
 
 ---
+
+## Ejercicio 6: Integrador con java.util.Arrays
+
+###  Enunciado
+
+Dado el arreglo `int[] datos = {14, 7, 25, 3, 18};`, crear una copia real con `Arrays.copyOf`, ordenar solamente la copia con `Arrays.sort` y mostrar ambos arreglos con `Arrays.toString`. Luego indicar el segundo número mayor y la posición del número 14 en la copia con `Arrays.binarySearch`.
+
+###  Indicaciones
+
+- Desarrollar el ejercicio utilizando el lenguaje de programación Java.
+- Utilizar la biblioteca `java.util.Arrays`.
+- Crear una copia real del arreglo original.
+- Ordenar solamente la copia del arreglo.
+- Mostrar ambos arreglos en pantalla.
+- Identificar el segundo número mayor.
+- Buscar la posición del número 14 en la copia.
+
+###  Instrucciones y elementos sugeridos
+
+**Elementos utilizados:**
+
+- Arreglos de tipo entero (`int[]`).
+- Biblioteca `java.util.Arrays`.
+- Método `Arrays.copyOf()`.
+- Método `Arrays.sort()`.
+- Método `Arrays.toString()`.
+- Método `Arrays.binarySearch()`.
+
+**Instrucciones:**
+
+1. Declarar el arreglo original con los valores 14, 7, 25, 3 y 18.
+2. Crear una copia real utilizando `Arrays.copyOf()`.
+3. Ordenar la copia utilizando `Arrays.sort()`.
+4. Mostrar el arreglo original y la copia ordenada.
+5. Obtener el segundo número mayor.
+6. Buscar la posición del número 14 utilizando `Arrays.binarySearch()`.
+7. Mostrar todos los resultados en pantalla.
+
+###  Descripción de la solución
+
+Para resolver este ejercicio se utilizó la biblioteca `java.util.Arrays`, que permite trabajar con arreglos mediante diferentes métodos.
+
+Primero se declaró un arreglo de números enteros y se creó una copia independiente utilizando `Arrays.copyOf()`. Después se ordenó únicamente la copia mediante `Arrays.sort()`, manteniendo intacto el arreglo original.
+
+Posteriormente, se mostraron ambos arreglos utilizando `Arrays.toString()`. Finalmente, se obtuvo el segundo número mayor, que es 18, y se buscó la posición del número 14 mediante `Arrays.binarySearch()`, obteniendo como resultado la posición 2 (índice basado en cero).
+
+### Resolución a mano
+
+<img width="1074" height="1408" alt="WhatsApp Image 2026-11-19 at 2 34 23 PM" src="https://github.com/user-attachments/assets/3a97cf33-5163-4c9a-ac91-fb520aecd177" />
+
+### Evidencia de ejecución
+
+<img width="896" height="185" alt="WhatsApp Image 2026-11-19 at 3 16 00 PM" src="https://github.com/user-attachments/assets/b9c05bf5-2c93-4aaa-9c7a-4ae393f18f6d" />
+
