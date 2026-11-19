@@ -244,7 +244,8 @@ Finalmente, se calculó el promedio convirtiendo la suma a `double` para evitar 
 
 <img width="807" height="243" alt="image" src="https://github.com/user-attachments/assets/09f58111-6ddf-483e-9ec3-49587e9adf6b" />
 
-```
+
+---
 
 ## Ejercicio 6: Integrador con java.util.Arrays
 
