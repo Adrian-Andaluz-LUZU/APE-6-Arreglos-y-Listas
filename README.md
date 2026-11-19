@@ -188,6 +188,64 @@ Para resolver este ejercicio, se utiliza un arreglo unidimensional de tipo `int`
 
 ---
 
+# Ejercicio 5: Máximo y mínimo con arreglos paralelos
+
+## Enunciado
+
+Dados los arreglos `String[] nombres = {"Ana", "Luis", "Marta", "Pedro"};` e `int[] notas = {15, 8, 18, 11};`, mostrar el **nombre y la nota más alta**, el **nombre y la nota más baja** (usando `posMax` y `posMin`) y el **promedio con 2 decimales**.
+
+## Indicaciones
+
+- Desarrollar el ejercicio utilizando el lenguaje de programación Java.
+- Utilizar dos arreglos paralelos: uno de nombres y otro de notas.
+- Guardar la posición de la nota más alta en `posMax` y la de la más baja en `posMin`.
+- Usar esas posiciones para obtener el nombre y la nota correspondientes.
+- Calcular el promedio de las notas.
+- Mostrar el promedio con 2 decimales.
+
+## Instrucciones y elementos sugeridos
+
+**Elementos utilizados:**
+
+- Arreglos de tipo `String` (`String[]`).
+- Arreglos de tipo entero (`int[]`).
+- Arreglos paralelos (misma posición, mismo estudiante).
+- Bucle `for`.
+- Condicional `if`.
+- Propiedad `.length`.
+- Conversión `(double)`.
+- Método `printf()` con formato `%.2f`.
+
+**Instrucciones:**
+
+1. Declarar el arreglo `nombres` con los valores "Ana", "Luis", "Marta" y "Pedro".
+2. Declarar el arreglo `notas` con los valores 15, 8, 18 y 11.
+3. Declarar las variables `posMax`, `posMin` y `suma`, inicializadas en 0.
+4. Recorrer el arreglo `notas` con un bucle `for`.
+5. Dentro del recorrido, comparar cada nota con `notas[posMax]` y `notas[posMin]` para actualizar las posiciones.
+6. Acumular cada nota en la variable `suma`.
+7. Calcular el promedio dividiendo `suma` entre `notas.length`, convirtiendo antes a `double`.
+8. Mostrar el nombre y la nota más alta, el nombre y la nota más baja, y el promedio con 2 decimales.
+
+## Descripción de la solución
+
+Para resolver este ejercicio se utilizaron dos arreglos paralelos: `nombres` y `notas`. Son paralelos porque la posición `i` de ambos arreglos corresponde a la misma persona, de modo que si se conoce la posición de una nota también se conoce el nombre asociado.
+
+Primero se declararon `posMax` y `posMin` en 0, asumiendo que el primer elemento es al mismo tiempo el mayor y el menor. Luego, con un bucle `for`, se recorrió el arreglo `notas`: si la nota actual es mayor que `notas[posMax]`, se actualiza `posMax`; si es menor que `notas[posMin]`, se actualiza `posMin`. En el mismo recorrido se fue acumulando la suma de las notas.
+
+Finalmente, se calculó el promedio convirtiendo la suma a `double` para evitar la división entera, y se mostraron los resultados usando `posMax` y `posMin` como índices en ambos arreglos. La nota más alta es 18 (Marta), la más baja es 8 (Luis) y el promedio es 13,00. El promedio se imprimió con 2 decimales mediante `printf` y el formato `%.2f`.
+
+## Resolución a mano
+
+<img width="1080" height="957" alt="image" src="https://github.com/user-attachments/assets/d2bb8701-8d18-4668-af92-c217506d1184" />
+
+
+## Evidencia de ejecución
+
+<img width="807" height="243" alt="image" src="https://github.com/user-attachments/assets/09f58111-6ddf-483e-9ec3-49587e9adf6b" />
+
+```
+
 ## Ejercicio 6: Integrador con java.util.Arrays
 
 ###  Enunciado
